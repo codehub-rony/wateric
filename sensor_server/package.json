@@ -1,0 +1,17 @@
+{
+  "name": "sensor_server",
+  "version": "1.0.0",
+  "description": "websocket server for processing sensor data",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "ws": "^7.5.0"
+  }
+}
